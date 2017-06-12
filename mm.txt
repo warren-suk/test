@@ -1,0 +1,116 @@
+
+
+70698
+70699
+20702
+20703
+20704
+20705
+20706
+20708
+87220
+87222
+87223
+87224
+91698
+91699
+91700
+
+
+1. ID/PW 입력 계정(ID/PW 동일)
+HS_SECU_2
+
+2. 사용자이름 입력 계정
+석원석 [20150079]
+이태일 [20150079]
+
+1. 플래그샵 membership.hanssem.com/sh
+
+　- BRANDCD : 100000
+　- 가입매장 : 000003
+
+
+2. 인테리어대리점 membership.hanssem.com/int
+
+　- BRANDCD : 300000
+　- 가입매장 : 000004
+
+
+3. 키친앤바스 membership.hanssem.com/kb
+
+　- BRANDCD : 400000
+　- 가입매장 : 000001
+
+
+4. 리하우스 membership.hanssem.com/rh
+
+　- BRANDCD : 200000
+　- 가입매장 : 000002
+
+
+1. 샵별 접근 URL
+
+ 1) 플래그샵		http://membership.hanssem.com/sh
+ 2) 인테리어대리점	http://membership.hanssem.com/int
+ 3) 키친앤바스		http://membership.hanssem.com/kb
+ 4) 리하우스		http://membership.hanssem.com/rh
+
+ * 도메인 뒤 코드가 "sh","int","kb","rh" 가 아닌 다른값일경우 "sh" 로 설정 됩니다.
+
+2. 수정파일 목록 (총 12개)
+
+ 1) jsp (10 개)
+   /WEB-INF/views/faq.jsp
+   /WEB-INF/views/main.jsp
+   /WEB-INF/views/modify1.jsp
+   /WEB-INF/views/modify2.jsp
+   /WEB-INF/views/modify3.jsp
+   /WEB-INF/views/step1.jsp
+   /WEB-INF/views/step2.jsp
+   /WEB-INF/views/step3.jsp
+   /WEB-INF/views/step4.jsp
+   /WEB-INF/views/searchAddr.jsp
+ 2) java (2 개)
+   src/main/java/membership/hanssem/com/HomeController.java
+   src/main/java/membership/hanssem/com/offMemController.java
+
+3. 수정파일
+
+ * 첨부파일
+
+
+10.20.51.167:2398;DatabaseName=HANSSEM
+bluedigm1 / bluedigm
+
+10.20.51.81:1433;databaseName=EMMA
+emma / emma2015!
+
+dbup.hanssem.com:1433;databaseName=hscrm
+phoenixdev / dev%phoenix
+
+
+----------// 2017.06.09
+10.20.51.167:2398;DatabaseName=HANSSEM
+  bluedigm1 / bluedigm
+10.20.51.81:1433;databaseName=EMMA
+  emma / emma2015!
+dbup.hanssem.com:1433;databaseName=hscrm
+  phoenixdev / dev%phoenix
+
+----------// 2017.06.12
+10.20.51.82:1398;DatabaseName=HANSSEM
+  bluedigm1 / bluedigm
+10.20.51.81:1433;databaseName=EMMA
+  emma / emma2015!
+dbup.hanssem.com:1433;databaseName=hscrm
+  phoenixdev / dev%phoenix
+
+
+
+
+
+
+
+
+
+
